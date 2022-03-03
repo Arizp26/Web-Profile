@@ -1,0 +1,86 @@
+*{
+  margin: 0;
+  height: 0;
+  font-family: sans-serif;
+}
+body{
+  position: relative;
+  margin: 0;
+  padding: 0;
+  background: url(bg3.png);
+  background-size: cover;
+}
+
+.Bio{
+  border-radius: 10%;
+  border: 3px solid #000;
+  width: 350px;
+  height: 450px;
+  background: rgba(138, 145, 152);
+  margin-top: 20px;
+  margin-left: 30px;
+  box-shadow: 5px 5px 10px 0px #000;
+ 
+
+}
+.box-img{
+  border-radius: 100%;
+  width: 120px;
+  height: 120px;
+  margin-left: 110px;
+  margin-top: 50px;
+}
+
+.biodata td{
+  color: black;
+  font-size: 15px;
+  
+}
+
+.Achievement {
+  position: absolute;
+  border-radius: 10%;
+  border: 3px solid #000;
+  width: 600px;
+  height: 200px;
+  background: rgb(138, 145, 152);
+  top: 10px;
+  left: 500px; 
+  box-shadow: 5px 5px 10px 0px #000;
+  text-align: justify;
+
+}
+
+
+.Target {
+  position: absolute;
+  border-radius: 10%;
+  border: 3px solid #000;
+  width: 600px;
+  height: 200px;
+  background: rgb(138, 145, 152);
+  top: 250px;
+  left: 500px; 
+  box-shadow: 5px 5px 10px 0px #000;
+  text-align: justify;
+}
+
+.fa {
+ 
+  margin-left: 50px;
+  padding: 5px;
+  font-size: 10px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.Bio ul{
+  margin-top: 230px;
+  display: table;
+}
+
+.Bio ul li{
+  display: inline;
+}
